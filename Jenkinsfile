@@ -9,7 +9,7 @@ pipeline {
         TASK_DEF_NAME = "arun-order-service"
         IMAGE_TAG = "${BUILD_NUMBER}"
         AWS_ACCOUNT_ID = "602689946810"
-        ECR_URI = "602689946810.dkr.ecr.us-east-1.amazonaws.com/user-service"
+        ECR_URI = "${602689946810.dkr.ecr.us-east-1.amazonaws.com/user-service}"
     }
 
     stages {
